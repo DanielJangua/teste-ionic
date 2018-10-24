@@ -1,0 +1,51 @@
+<!--
+  Generated template for the IntroPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <!----<ion-navbar>
+    <ion-title>Intro</ion-title>
+  </ion-navbar>-->
+</ion-header>
+
+
+<ion-content padding>
+
+    <div>
+        <h5 class="skip"><a (click)="goToTabsPage()">Pular</a></h5> 
+    </div>
+
+  <ion-slides pager>
+
+    <ion-slide class="slide_image">
+      <img src="assets/imgs/slide1.jpg" alt="">
+      <h2>Compras Dinâmicas</h2>
+      <br>
+      <div>
+        <p>Economize tempo no mercado!</p>
+        <p>Otimize suas compras com este aplicativo. Gostou? <strong>Veja mais.</strong></p>
+      </div>
+    </ion-slide>
+
+    <ion-slide class="slide_image">
+      <img src="assets/imgs/slide2.png" alt="">
+      <h2>Slide 2</h2>
+    </ion-slide>
+
+    <ion-slide class="slide_image">
+      <img src="assets/imgs/slide3.png" alt="">
+      <h2>Slide 3</h2>
+    </ion-slide>
+
+    <ion-slide class="slide_image">
+      <img src="assets/imgs/slide3.png" alt="">
+      <button ion-button outline (click)="goToTabsPage()">Continuar</button>
+    </ion-slide>
+
+  </ion-slides>
+
+
+</ion-content>
